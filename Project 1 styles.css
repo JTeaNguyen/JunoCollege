@@ -162,7 +162,13 @@ body {
     display: flex;
     align-items: space-evenly;
     align-items: center;
-    order: 0, 1, 2;
+    
+}
+
+.dock-text-section {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .navigation-container-bottom a{
