@@ -98,7 +98,7 @@ body {
 }
 
 .page2 {
-    margin: 10px;
+
     max-width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -165,11 +165,17 @@ body {
 .dock-text-section {
     display: flex;
     flex-direction: column;
-    margin-top: -153px;
-    margin-left: 47px;
+    margin: 37px;
     
 }
 
+.dock-guy img{
+    max-width: 100%;
+}
+
+.crooked-guy img{
+    max-width: 100%;
+}
 .feature-2 {
     display: flex;
     background-color: #e4e4ee;
@@ -181,8 +187,22 @@ body {
 .feature-2 h2{
     color: grey;
 }
+
+.feature-2 p{
+    font-size: 39px;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0 35px 0;
+}
+
+.navigation-container-bottom{
+    display: flex;
+    padding: 10px;
+    margin: 10px -150px 10px 150px;
+    color: #777777;
+}
 .navigation-container-bottom a{
     text-decoration: none;
+   
 }
 
 .side-by-side-images{
@@ -196,4 +216,40 @@ body {
 
 .luggage-side-image img{
     max-width: 100%;
+}
+
+.lower-left {
+    display: flex;
+    background-color: #e4e4ee;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.lower-left h1{
+    color: rgb(63, 102, 105);
+}
+
+.lower-left h2{
+    display: flex;
+    
+}
+
+.link-bottom {
+    margin: 10px;
+    color: #333030;
+    font-family:  'Raleway', sans-serif;
+}
+.link-column-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-column-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-left p{
+    font-family: 'Raleway', sans-serif;
 }
