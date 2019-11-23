@@ -111,9 +111,6 @@ body {
     padding-right: 25px;
 }
 
-.single-boat-ocean {    
-
-}
 
 .page2 img{
     max-width: 100%;
@@ -168,7 +165,8 @@ body {
 .dock-text-section {
     display: flex;
     flex-direction: column;
-
+    margin-top: -153px;
+    margin-left: 47px;
 }
 
 .navigation-container-bottom a{
