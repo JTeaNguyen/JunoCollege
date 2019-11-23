@@ -185,5 +185,15 @@ body {
     text-decoration: none;
 }
 
-
+.side-by-side-images{
+    display: flex;
     
+}
+
+.illios-side-image img{
+    max-width: 100%;
+}
+
+.luggage-side-image img{
+    max-width: 100%;
+}
